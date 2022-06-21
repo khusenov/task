@@ -48,6 +48,7 @@
             left: 0;
             background-color: var(--dark-black-bg);
             backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
             margin: 0;
             flex-direction: column;
             z-index: 10;
