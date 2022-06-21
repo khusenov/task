@@ -1,4 +1,4 @@
-export const ENDPOINT_MAIN = 'https://coursesnodejs.herokuapp.com';
+export const ENDPOINT_MAIN = 'https://coursesnodejs.herokuapp.com/';
 
 export const ENDPOINT_USER = 'https://coursesnodejs.herokuapp.com/user';
 

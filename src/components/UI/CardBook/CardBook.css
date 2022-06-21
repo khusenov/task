@@ -8,6 +8,7 @@
   background-color: var(--dark-black-l20);
   margin: 0 0 var(--gap-sm);
   position: relative;
+  overflow: hidden;
 }
 .cardBook-img img {
   position: absolute;

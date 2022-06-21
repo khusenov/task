@@ -16,9 +16,13 @@
 
 <script>
 import Button from '@/components/UI/Button/Button';
+import { ENDPOINT_MAIN } from '@/consts/API_ENDPOINTS';
 export default {
     name: 'CardCourse',
     components: { Button },
+    computed: {
+        baseUrl: () => ENDPOINT_MAIN,
+    },
     props: ['img', 'title', 'text', 'id'],
 };
 </script>
