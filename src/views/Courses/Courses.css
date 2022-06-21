@@ -13,5 +13,15 @@
 .courses-btn {
   margin: var(--gap-lg) auto 0 auto;
 }
+@media (max-width: 1024px) {
+  .courses-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 720px) {
+  .courses-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
 /*# sourceMappingURL=Courses.css.map */

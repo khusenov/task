@@ -13,5 +13,15 @@
 .books-btn {
   margin: var(--gap-lg) auto 0 auto;
 }
+@media (max-width: 768px) {
+  .books-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 560px) {
+  .books-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 /*# sourceMappingURL=Books.css.map */
