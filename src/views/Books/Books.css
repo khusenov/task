@@ -1,0 +1,17 @@
+.books {
+  padding: var(--gap-lg) 0;
+}
+.books-title {
+  margin: 0 0 var(--gap-md) 0;
+}
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: var(--gap-md);
+  grid-row-gap: var(--gap-lg);
+}
+.books-btn {
+  margin: var(--gap-lg) auto 0 auto;
+}
+
+/*# sourceMappingURL=Books.css.map */

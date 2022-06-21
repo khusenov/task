@@ -1,0 +1,25 @@
+html:root {
+    --gap-xxs: 4px;
+    --gap-xs: 10px;
+    --gap-sm: 16px;
+    --gap-md: 24px;
+    --gap-lg: 34px;
+    --gap-xl: 64px;
+    --gap-xxl: 96px;
+
+    --duration: 200ms;
+
+    @media (max-width: 768px) {
+        --gap-lg: 32px;
+        --gap-xl: 56px;
+        --gap-xxl: 84px;
+    }
+
+    @media (max-width: 560px) {
+        --gap-sm: 14px;
+        --gap-md: 18px;
+        --gap-lg: 24px;
+        --gap-xl: 36px;
+        --gap-xxl: 48px;
+    }
+}

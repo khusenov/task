@@ -1,0 +1,37 @@
+.nav {
+    min-height: 72px;
+    background-color: var(--dark-black-l20);
+    display: flex;
+    align-items: center;
+
+    &-body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-logo {
+        color: var(--dark-white-main);
+        font-size: 20px;
+    }
+
+    &-menu {
+        display: flex;
+        align-items: center;
+
+        & > *:not(:last-child) {
+            margin: 0 var(--gap-lg) 0 0;
+        }
+
+        &-link {
+            font-weight: 500;
+            font-size: 18px;
+            color: var(--dark-white-d20);
+            transition: color ease var(--duration);
+
+            &.router-link-active {
+                color: var(--dark-white-main);
+            }
+        }
+    }
+}

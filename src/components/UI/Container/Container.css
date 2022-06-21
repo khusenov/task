@@ -1,0 +1,8 @@
+.container {
+  width: 100%;
+  max-width: calc(1280px + var(--gap-md) * 2);
+  padding: 0 var(--gap-md);
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=Container.css.map */

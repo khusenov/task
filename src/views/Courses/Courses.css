@@ -1,0 +1,17 @@
+.courses {
+  padding: var(--gap-lg) 0;
+}
+.courses-title {
+  margin: 0 0 var(--gap-md) 0;
+}
+.courses-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: var(--gap-md);
+  grid-row-gap: var(--gap-lg);
+}
+.courses-btn {
+  margin: var(--gap-lg) auto 0 auto;
+}
+
+/*# sourceMappingURL=Courses.css.map */

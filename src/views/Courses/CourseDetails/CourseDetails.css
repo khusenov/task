@@ -1,0 +1,8 @@
+.courseDetails {
+  padding: var(--gap-lg) 0;
+}
+.courseDetails-data-text {
+  margin: var(--gap-md) 0 var(--gap-lg) 0;
+}
+
+/*# sourceMappingURL=CourseDetails.css.map */

@@ -1,0 +1,33 @@
+.nav {
+  min-height: 72px;
+  background-color: var(--dark-black-l20);
+  display: flex;
+  align-items: center;
+}
+.nav-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  color: var(--dark-white-main);
+  font-size: 20px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.nav-menu > *:not(:last-child) {
+  margin: 0 var(--gap-lg) 0 0;
+}
+.nav-menu-link {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--dark-white-d20);
+  transition: color ease var(--duration);
+}
+.nav-menu-link.router-link-active {
+  color: var(--dark-white-main);
+}
+
+/*# sourceMappingURL=Nav.css.map */

@@ -1,0 +1,16 @@
+@import 'default', 'units', 'theme', 'typography';
+
+html::-webkit-scrollbar {
+    background-color: var(--dark-black-main);
+    width: 12px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: var(--dark-black-l20);
+    border-radius: 4px;
+}
+
+*::selection {
+    color: var(--dark-white-main);
+    background-color: var(--dark-primary-main);
+}

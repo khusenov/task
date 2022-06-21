@@ -1,0 +1,21 @@
+html:root {
+    --dark-black-bg: rgba(20, 22, 34, 0.8);
+
+    --dark-black-main: rgb(20, 22, 34);
+    --dark-black-l20: rgb(24, 26, 38);
+
+    --dark-white-d20: #adacb1;
+    --dark-white-main: #ffffff;
+
+    --dark-primary-main: rgb(61, 123, 250);
+    --dark-primary-l20: rgb(121, 165, 250);
+
+    --dark-danger-main: rgb(255, 59, 59);
+    --dark-danger-l20: rgb(255, 92, 92);
+    --dark-danger-bg: rgba(255, 59, 59, 0.05);
+}
+
+body {
+    color: var(--dark-white-main);
+    background-color: var(--dark-black-main);
+}

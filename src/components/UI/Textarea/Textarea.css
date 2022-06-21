@@ -1,0 +1,37 @@
+.textarea {
+  width: 100%;
+}
+.textarea-label {
+  padding: 0 0 var(--gap-xxs) 12px;
+}
+.textarea-custom {
+  width: 100%;
+  resize: none;
+  color: var(--dark-white-main);
+  background-color: var(--dark-black-l20);
+  border: 0.125em solid transparent;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0.5em 1.5em;
+  border-radius: 12px;
+  transition: border-color ease var(--duration);
+}
+.textarea-custom::placeholder {
+  color: var(--dark-white-main);
+  opacity: 0.65;
+  transition: opacity ease var(--duration);
+}
+.textarea-custom:focus {
+  border-color: var(--dark-primary-main);
+}
+.textarea-custom:focus::placeholder {
+  opacity: 1;
+}
+@media (max-width: 560px) {
+  .textarea-custom {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+/*# sourceMappingURL=Textarea.css.map */

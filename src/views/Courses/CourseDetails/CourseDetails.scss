@@ -1,0 +1,9 @@
+.courseDetails {
+    padding: var(--gap-lg) 0;
+
+    &-data {
+        &-text {
+            margin: var(--gap-md) 0 var(--gap-lg) 0;
+        }
+    }
+}
